@@ -1,20 +1,16 @@
 <div class="container__big-card">
     <div class="big-card__foto">
-        <img src="https://us.v-cdn.net/6029252/uploads/editor/b8/rbwftxot15cb.png" width="500px" height="300px" alt="">
+        <img src={{bigCardPhoto}} alt="">
     </div>
     <div class="big-card__title">
-        <a href="#">
-            <h1>Saiu a nova versão do angular</h1>
-        </a>
+        <p><a [routerLink]="['content-big-card', Id]">
+           {{ bigCardTitle }}
+        </a></p>
     </div>
     <div class="big-card__derciption">
         <p>
-            <a href="#">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis odio vehicula risus euismod
-                dictum. Praesent porttitor rhoncus elit vel aliquet. Phasellus vitae dictum nulla. Aenean et ipsum id
-                libero consequat interdum eget id ligula. Suspendisse egestas eleifend mauris. Cras fermentum, ante quis
-                sollicitudin tempus, ex nisl feugiat quam, eget rutrum sem nisl a tortor. Cras egestas vel metus
-                convallis congue. Praesent nec diam in enim iaculis semper.
+            <a [routerLink]="['content-big-card', Id]">
+                {{ bigCardDescription}}
             </a>
         </p>
     </div>

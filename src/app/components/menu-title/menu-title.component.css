@@ -1,21 +1,30 @@
-.container__menu-title{
+.container__menu-title {
     color: white;
-    
-
 }
 
-.container__menu-title h1{
+.container__menu-title h1 {
     margin: 10px 0 20px 20px;
-    font-size: 120px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     font-weight: bold;
     font-family: 'Segoe UI';
 }
 
-
-.container__menu-title hr{
+.container__menu-title hr {
     margin: 12px 0 12px 0;
-    
-   
+}
+
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        font-size: 0;
+    }
+    to {
+        font-size: 80;
+    }
 }

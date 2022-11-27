@@ -1,6 +1,7 @@
 .container__small-card{
+    margin-left: 30px;
     margin-bottom: 10px;
-    width: 700px;
+    width: 500px;
     height: 160px;
 }
 
@@ -12,11 +13,13 @@
 }
 
 .small-card__foto > img{
-    width: 300px;
-    min-width: 300px;
+    width: 260px;
+    min-width: 260px;
     margin-right: 20px;
     max-height: 150px;
     min-height: 150px;
+    border: 2px solid rgb(192, 156, 88);
+    border-radius: 5px;
 }
 
 .small-card__title{
@@ -26,12 +29,9 @@
     align-items: center;
 }
 
-.small-card__title > a{
-    text-decoration: none;
-}
-
-.small-card__title > a > h3{
+.small-card__title > h3 > a{
     font-size: 20px;
+    text-decoration: none;
 }
 
 hr{

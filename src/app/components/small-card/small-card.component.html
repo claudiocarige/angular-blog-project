@@ -1,13 +1,12 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__foto">
-            <img src="https://i.redd.it/q7ec6rhdeir21.jpg" height="150px" alt="">
+            <img src={{smallCardPhoto}} height="150px" alt="">
         </div>
         <div class="small-card__title">
-            <a href="#">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis odio vehicula risus euismod
-                </h3>
-            </a>
+            <h3><a [routerLink]="['content-big-card', Id]">
+                {{smallCardDescription}}
+            </a></h3>
         </div>
     </div>
     <div class="container__small-hr">
